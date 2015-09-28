@@ -1,0 +1,28 @@
+{
+  "name": "gulp-vuemaker",
+  "description": "Create .vue file from .js, .css and .html files.",
+  "version": "1.0.0",
+  "repository": "layer7be/gulp-vuemaker.git",
+  "author": "Koen Calliauw <koen@layer7.be> (http://www.layer7.be)",
+  "homepage": "https://github.com/layer7be/gulp-vuemaker#readme",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/layer7be/gulp-vuemaker/issues"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.6",
+    "lodash": "^3.10.1",
+    "through2": "^2.0.0",
+    "collections": "^1.2.4",
+    "gulp": "^3.9.0"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "license": "MIT"
+}
