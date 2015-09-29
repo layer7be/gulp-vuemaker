@@ -63,6 +63,7 @@ module.exports = function (file, opt) {
       }))
 
     }.bind(this))
+    cb()
   }
 
   return through.obj(transform, flush)
