@@ -23,7 +23,7 @@ or add next to your package.json
 
 ```js
   "devDependencies": {
-    "gulp-stylus-vuemaker": "^1.0.2"
+    "gulp-stylus-vuemaker": "^1.0.4"
   }
 ```
 
