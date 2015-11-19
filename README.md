@@ -19,6 +19,20 @@
 sudo npm install --save-dev gulp-stylus-vuemaker
 ```
 
+or add next to your package.json
+
+```js
+  "devDependencies": {
+    "gulp-stylus-vuemaker": "^1.0.2"
+  }
+```
+
+and run
+
+```js
+sudo npm install
+```
+
 ## Usage
 
 ```js
