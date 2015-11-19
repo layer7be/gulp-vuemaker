@@ -28,6 +28,35 @@ gulp.task('default', function() {
 
 This will make your .vue component files.
 
+## RUSSIAN | Информация
+
+<table>
+<tr>
+<td>Пакет</td><td>gulp-vuemaker</td>
+</tr>
+<tr>
+<td>Описание</td>
+<td>Объединение .html, .css, .styl и .js files в .vue компонент</td>
+</tr>
+<tr>
+<td>Версия Node</td>
+<td>>= 0.10</td>
+</tr>
+</table>
+
+## Использование
+
+```js
+var vuemaker = require('gulp-vuemaker');
+
+gulp.task('default', function() {
+  return gulp.src('./lib/*.+(js|css|styl|html)')
+    .pipe(vuemaker())
+    .pipe(gulp.dest('./components/'));
+});
+```
+
+Этот код соберет файлы в .vue компонент
 
 ## LICENSE
 
