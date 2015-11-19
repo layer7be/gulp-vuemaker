@@ -20,7 +20,7 @@
 var vuemaker = require('gulp-vuemaker');
 
 gulp.task('default', function() {
-  return gulp.src('./lib/*.+(js|css|html)')
+  return gulp.src('./lib/*.+(js|css|styl|html)')
     .pipe(vuemaker())
     .pipe(gulp.dest('./components/'));
 });
