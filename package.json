@@ -1,7 +1,7 @@
 {
   "name": "gulp-stylus-vuemaker",
   "description": "Create .vue file from .js, .css, .styl and .html files.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": "cyberS7/gulp-vuemaker.git",
   "author": "Koen Calliauw <koen@layer7.be> (http://www.layer7.be)",
   "homepage": "https://github.com/cyberS7/gulp-vuemaker#readme",
