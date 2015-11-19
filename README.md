@@ -6,7 +6,7 @@
 </tr>
 <tr>
 <td>Description</td>
-<td>Combine .html, .css and .js files into .vue components</td>
+<td>Combine .html, .css, .styl and .js files into .vue components</td>
 </tr>
 <tr>
 <td>Node Version</td>
