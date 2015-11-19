@@ -19,7 +19,8 @@
     "lodash": "^3.10.1",
     "through2": "^2.0.0",
     "collections": "^1.2.4",
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "stylus": "^0.52.4"
   },
   "engines": {
     "node": ">= 0.10"

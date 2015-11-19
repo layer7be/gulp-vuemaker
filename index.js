@@ -3,6 +3,8 @@ var path = require('path')
 var gutil = require('gulp-util')
 var _ = require('lodash')
 var Map = require('collections/map')
+//Require Stylus
+var stylus = require('stylus')
 
 var pluginName = 'gulp-vuemaker'
 
@@ -18,6 +20,8 @@ module.exports = function (file, opt) {
       case '.js':
         return 'script'
       case '.css':
+        return 'style'
+      case '.styl'
         return 'style'
       case '.html':
         return 'template'
@@ -42,7 +46,12 @@ module.exports = function (file, opt) {
     if (!components.has(componentName)) {
       components.set(componentName, new Map())
     }
-    components.get(componentName).set(kind, file.contents.toString(encoding))
+
+    if (kind === 'style') {
+       components.get(componentName).set(kind, stylus(file.contents.toString('utf8')).render())
+    } else {
+      components.get(componentName).set(kind, file.contents.toString(encoding))
+    }
 
     return cb()
   }
