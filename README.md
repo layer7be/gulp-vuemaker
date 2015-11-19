@@ -13,7 +13,10 @@
 <td>>= 0.10</td>
 </tr>
 </table>
-
+## Installation
+```js
+sudo npm install --save-dev gulp-stylus-vuemaker
+```js
 ## Usage
 
 ```js
@@ -27,6 +30,8 @@ gulp.task('default', function() {
 ```
 
 This will make your .vue component files.
+
+
 
 ## RUSSIAN | Информация
 
