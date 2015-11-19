@@ -14,9 +14,11 @@
 </tr>
 </table>
 ## Installation
+
 ```js
 sudo npm install --save-dev gulp-stylus-vuemaker
-```js
+```
+
 ## Usage
 
 ```js
