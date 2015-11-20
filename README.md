@@ -6,13 +6,32 @@
 </tr>
 <tr>
 <td>Description</td>
-<td>Combine .html, .css and .js files into .vue components</td>
+<td>Combine .html, .css, .styl and .js files into .vue components</td>
 </tr>
 <tr>
 <td>Node Version</td>
 <td>>= 0.10</td>
 </tr>
 </table>
+## Installation
+
+```js
+sudo npm install --save-dev gulp-stylus-vuemaker
+```
+
+or add next to your package.json
+
+```js
+  "devDependencies": {
+    "gulp-stylus-vuemaker": "^1.0.4"
+  }
+```
+
+and run
+
+```js
+sudo npm install
+```
 
 ## Usage
 
@@ -20,7 +39,7 @@
 var vuemaker = require('gulp-vuemaker');
 
 gulp.task('default', function() {
-  return gulp.src('./lib/*.+(js|css|html)')
+  return gulp.src('./lib/*.+(js|css|styl|html)')
     .pipe(vuemaker())
     .pipe(gulp.dest('./components/'));
 });
@@ -28,6 +47,37 @@ gulp.task('default', function() {
 
 This will make your .vue component files.
 
+
+
+## RUSSIAN | Информация
+
+<table>
+<tr>
+<td>Пакет</td><td>gulp-vuemaker</td>
+</tr>
+<tr>
+<td>Описание</td>
+<td>Объединение .html, .css, .styl и .js files в .vue компонент</td>
+</tr>
+<tr>
+<td>Версия Node</td>
+<td>>= 0.10</td>
+</tr>
+</table>
+
+## Использование
+
+```js
+var vuemaker = require('gulp-vuemaker');
+
+gulp.task('default', function() {
+  return gulp.src('./lib/*.+(js|css|styl|html)')
+    .pipe(vuemaker())
+    .pipe(gulp.dest('./components/'));
+});
+```
+
+Этот код соберет файлы в .vue компонент
 
 ## LICENSE
 

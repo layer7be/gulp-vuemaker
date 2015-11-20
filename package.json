@@ -1,10 +1,10 @@
 {
-  "name": "gulp-vuemaker",
-  "description": "Create .vue file from .js, .css and .html files.",
-  "version": "1.0.1",
-  "repository": "layer7be/gulp-vuemaker.git",
+  "name": "gulp-stylus-vuemaker",
+  "description": "Create .vue file from .js, .css, .styl and .html files.",
+  "version": "1.0.4",
+  "repository": "cyberS7/gulp-vuemaker.git",
   "author": "Koen Calliauw <koen@layer7.be> (http://www.layer7.be)",
-  "homepage": "https://github.com/layer7be/gulp-vuemaker#readme",
+  "homepage": "https://github.com/cyberS7/gulp-vuemaker#readme",
   "files": [
     "index.js"
   ],
@@ -12,14 +12,15 @@
     "gulpplugin"
   ],
   "bugs": {
-    "url": "https://github.com/layer7be/gulp-vuemaker/issues"
+    "url": "https://github.com/cyberS7/gulp-vuemaker/issues"
   },
   "dependencies": {
     "gulp-util": "^3.0.6",
     "lodash": "^3.10.1",
     "through2": "^2.0.0",
     "collections": "^1.2.4",
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "stylus": "^0.52.4"
   },
   "engines": {
     "node": ">= 0.10"
